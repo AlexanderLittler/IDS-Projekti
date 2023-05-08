@@ -1,6 +1,6 @@
 # **Vaatimusmäärittely**
 
-# [!IMPORTANT] Johdanto
+# Johdanto
 
 Tämä vaatimusmäärittely kuvailee mobiilisovelluksen ominaisuuksia ja toimintoja, joka auttaa keräämään tilauksia ja hallinnoimaan keräilyn prosessia. Sovelluksen tarkoituksena on helpottaa tilausten keräilyprosessia, vähentää virheitä ja parantaa tehokkuutta.
 
