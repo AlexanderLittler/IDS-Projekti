@@ -100,58 +100,58 @@ Varastonhallintajärjestelmä luo automaattisesti uuden tilauksen puuttuvista tu
 
 ## Toiminnalliset vaatimukset
 
-Kirjautuminen: Käyttäjän on voitava kirjautua sisään sovellukseen käyttäjätunnuksella ja salasanalla.
-Tilausten luominen: Käyttäjä voi luoda uuden tilauksen syöttämällä tuotetietoja ja määrän. Tilaukseen voi liittää myös toimitusosoitteen ja maksutiedot.
+**Kirjautuminen:** Käyttäjän on voitava kirjautua sisään sovellukseen käyttäjätunnuksella ja salasanalla.
+**Tilausten luominen:** Käyttäjä voi luoda uuden tilauksen syöttämällä tuotetietoja ja määrän. Tilaukseen voi liittää myös toimitusosoitteen ja maksutiedot.
 
-Tilauksen muokkaaminen: Käyttäjä voi muokata luomaansa tilausta, esimerkiksi lisäämällä tai poistamalla tuotteita tai muuttamalla toimitusosoitetta.
+**Tilauksen muokkaaminen:** Käyttäjä voi muokata luomaansa tilausta, esimerkiksi lisäämällä tai poistamalla tuotteita tai muuttamalla toimitusosoitetta.
 
-Tilausten tarkastelu: Käyttäjä voi tarkastella luomiaan tilauksia ja niiden tilaa (esim. "vahvistettu", "lähetetty").
+**Tilausten tarkastelu:** Käyttäjä voi tarkastella luomiaan tilauksia ja niiden tilaa (esim. "vahvistettu", "lähetetty").
 
-Tilausten poistaminen: Käyttäjä voi poistaa tilauksen, jos se ei ole vielä vahvistettu.
+**Tilausten poistaminen:** Käyttäjä voi poistaa tilauksen, jos se ei ole vielä vahvistettu.
 
-Tilauksen maksaminen: Käyttäjä voi maksaa tilauksen sovelluksen kautta.
+**Tilauksen maksaminen:** Käyttäjä voi maksaa tilauksen sovelluksen kautta.
 
-Ostosten tallentaminen: Käyttäjä voi tallentaa suosikkituotteitaan sovellukseen, jolloin niitä ei tarvitse etsiä uudelleen jokaisen tilauksen yhteydessä.
+**Ostosten tallentaminen:** Käyttäjä voi tallentaa suosikkituotteitaan sovellukseen, jolloin niitä ei tarvitse etsiä uudelleen jokaisen tilauksen yhteydessä.
 
-Asiakaspalvelun yhteydenotto: Käyttäjä voi ottaa yhteyttä asiakaspalveluun chatin tai sähköpostin välityksellä.
+**Asiakaspalvelun yhteydenotto:** Käyttäjä voi ottaa yhteyttä asiakaspalveluun chatin tai sähköpostin välityksellä.
 
 ## Käyttöliittymänäkymät
 
-Kirjautumisnäkymä: Käyttäjä syöttää kirjautumistietonsa ja pääsee sen jälkeen etusivulle.
+**Kirjautumisnäkymä:** Käyttäjä syöttää kirjautumistietonsa ja pääsee sen jälkeen etusivulle.
 
-Etusivu: Käyttäjä näkee suosituimmat tuotteet, viimeisimmät tarjoukset ja pääsee luomaan uuden tilauksen.
+**Etusivu:** Käyttäjä näkee suosituimmat tuotteet, viimeisimmät tarjoukset ja pääsee luomaan uuden tilauksen.
 
-Tilauksen luomisen näkymä: Käyttäjä syöttää tilauksen tiedot (tuotteet, määrät, toimitusosoite, maksutiedot).
+**Tilauksen luomisen näkymä:** Käyttäjä syöttää tilauksen tiedot (tuotteet, määrät, toimitusosoite, maksutiedot).
 
-Tilauksen tarkastelunäkymä: Käyttäjä näkee tilauksen tiedot ja tilan.
+**Tilauksen tarkastelunäkymä:** Käyttäjä näkee tilauksen tiedot ja tilan.
 
-Suosikit-näkymä: Käyttäjä näkee tallentamansa suosikkituotteet.
+**Suosikit-näkymä:** Käyttäjä näkee tallentamansa suosikkituotteet.
 
-Asiakaspalvelun chat-näkymä: Käyttäjä voi lähettää viestejä asiakaspalveluun.
+**Asiakaspalvelun chat-näkymä:** Käyttäjä voi lähettää viestejä asiakaspalveluun.
 
-Asiakaspalvelun sähköpostilomake: Käyttäjä voi täyttää lomakkeen ja lähettää viestin asiakaspalveluun.
+**Asiakaspalvelun sähköpostilomake:** Käyttäjä voi täyttää lomakkeen ja lähettää viestin asiakaspalveluun.
 
 ## Ketterän kehittämisen käyttötarinat:
 
-Sprinttien suunnittelu ja toteutus: Jokaisessa sprintissä sovitaan kehitettävistä ominaisuuksista, priorisoidaan tehtävät ja jaetaan työt kehittäjien kesken. 
+**Sprinttien suunnittelu ja toteutus:** Jokaisessa sprintissä sovitaan kehitettävistä ominaisuuksista, priorisoidaan tehtävät ja jaetaan työt kehittäjien kesken. 
 
 Tämän jälkeen kehittäjät toteuttavat sovitut tehtävät tiimin sisäisissä palavereissa.
 
-Asiakaspalautteen kerääminen: Kehitystiimi kerää jatkuvasti asiakaspalautetta kehitettävästä sovelluksesta. Palautetta käytetään hyväksi sprinttien suunnittelussa ja sovelluksen kehitystyössä.
+**Asiakaspalautteen kerääminen:** Kehitystiimi kerää jatkuvasti asiakaspalautetta kehitettävästä sovelluksesta. Palautetta käytetään hyväksi sprinttien suunnittelussa ja sovelluksen kehitystyössä.
 
-Tuotteen julkaisu: Kun sovelluksen kehitystyö on valmis, tuote julkaistaan. 
+**Tuotteen julkaisu:** Kun sovelluksen kehitystyö on valmis, tuote julkaistaan. 
 
 Julkaisun yhteydessä tarkistetaan, että sovellus täyttää kaikki sille asetetut vaatimukset ja että se toimii virheettömästi.
 
-Käyttöönotto: Sovelluksen käyttöönotossa huolehditaan siitä, että käyttäjät saavat riittävästi ohjeistusta ja tukea sovelluksen käyttöön. 
+**Käyttöönotto:** Sovelluksen käyttöönotossa huolehditaan siitä, että käyttäjät saavat riittävästi ohjeistusta ja tukea sovelluksen käyttöön. 
 
 Käyttöönotossa huomioidaan myös tarvittavat integraatiot ja käyttöliittymien yhteensopivuus.
 
-Ylläpito: Sovelluksen julkaisun jälkeen sen ylläpito on tärkeä osa kehitystyötä. 
+**Ylläpito:** Sovelluksen julkaisun jälkeen sen ylläpito on tärkeä osa kehitystyötä. 
 
 Kehitystiimi vastaa sovelluksen päivityksistä ja huolehtii, että sovellus pysyy turvallisena ja toimii virheettömästi.
 
-Jatkuva kehittäminen: Ketterän kehityksen periaatteisiin kuuluu jatkuva kehittäminen ja parantaminen. 
+**Jatkuva kehittäminen:** Ketterän kehityksen periaatteisiin kuuluu jatkuva kehittäminen ja parantaminen. 
 
 Kehitystiimi seuraa jatkuvasti sovelluksen käyttöä ja kerää palautetta käyttäjiltä. 
 
@@ -159,17 +159,17 @@ Palautteen perusteella sovellusta kehitetään edelleen ja pyritään parantamaa
 
 ## Palveluun liittyvät tekniset vaatimukset:
 
-Käyttöjärjestelmätuki: Android-käyttöjärjestelmäversiot 5.0 ja uudemmat.
+**Käyttöjärjestelmätuki:** Android-käyttöjärjestelmäversiot 5.0 ja uudemmat.
 
-Kehitystyökalut: Kotlin-ohjelmointikieli, Android Studio kehitysympäristö.
+**Kehitystyökalut:** Kotlin-ohjelmointikieli, Android Studio kehitysympäristö.
 
-Tietokanta: ?
+**Tietokanta:** ?
 
-Ulkoiset rajapinnat: Mahdollisuus käyttää REST-rajapintoja verkkopalveluiden käyttämiseen.
+**Ulkoiset rajapinnat:** Mahdollisuus käyttää REST-rajapintoja verkkopalveluiden käyttämiseen.
 
-Käyttöliittymäsuunnittelu: Käyttöliittymäsuunnittelu toteutetaan Material Design -ohjeiden mukaisesti.
+**Käyttöliittymäsuunnittelu:** Käyttöliittymäsuunnittelu toteutetaan Material Design -ohjeiden mukaisesti.
 
-Dokumentaatio: Palvelun tulee sisältää kattava dokumentaatio, joka sisältää käyttöohjeet, tekniset tiedot ja sovelluksen arkkitehtuurikuvauksen.
+**Dokumentaatio:** Palvelun tulee sisältää kattava dokumentaatio, joka sisältää käyttöohjeet, tekniset tiedot ja sovelluksen arkkitehtuurikuvauksen.
 
 Palvelun tulee myös täyttää Android-sovelluksille asetetut turvavaatimukset, kuten käyttäjätietojen suojaus ja tietojen salaus. 
 Palvelun tulee myös olla skaalautuva ja kykenevä käsittelemään suuria datamääriä.
