@@ -69,33 +69,33 @@ Tilauksen seuranta: kerääjä tai kuljetusliike kirjautuu sisään sovellukseen
 +++[#LightBlue] Syöte: salasana uudelleen
 +++[#LightBlue] Nappi: rekisteröidy
 +++[#LightBlue] Nappi: kirjaudu sisään
-++[#Fuchsia] Kirjaudu sisään
-+++[#Fuchsia] Syöte: sähköposti
-+++[#Fuchsia] Syöte: salasana
-+++[#Fuchsia] Nappi: kirjaudu sisään
-+++[#Fuchsia] Nappi: rekisteröidy
+++[#Salmon] Kirjaudu sisään
++++[#Salmon] Syöte: sähköposti
++++[#Salmon] Syöte: salasana
++++[#Salmon] Nappi: kirjaudu sisään
++++[#Salmon] Nappi: rekisteröidy
 ++[#LightBlue] Vastaanota ja kuittaa siirtolista
 +++[#LightBlue] Ilmoitus: Vastaanota ilmoitus uudesta siirtolistasta
 +++[#LightBlue] Nappi: Kuittaa kyseinen siirtolista tälle päätteelle
 +++[#LightBlue] Vastaanota siirtolista
 +++[#LightBlue] Lista: Listaa kerättävät tuotteet
-++[#Fuchsia] Suorita keräily
-+++[#Fuchsia] Ominaisuus: Lue viivakoodi
-+++[#Fuchsia] Tarkista onko tuote siirtolistassa
-+++[#Fuchsia] Ominaisuus: Lisätäänkö tuote siirtolistalle
-+++[#Fuchsia] Pop-up: Ilmoita virheellisestä tuotteesta
-+++[#Fuchsia] Pop-up: Vahvista kun kaikki tuotteet on keräilty
-+++[#Fuchsia] Nappi: Lähetä valmis siirtolista backendiin
+++[#Salmon] Suorita keräily
++++[#Salmon] Ominaisuus: Lue viivakoodi
++++[#Salmon] Tarkista onko tuote siirtolistassa
++++[#Salmon] Ominaisuus: Lisätäänkö tuote siirtolistalle
++++[#Salmon] Pop-up: Ilmoita virheellisestä tuotteesta
++++[#Salmon] Pop-up: Vahvista kun kaikki tuotteet on keräilty
++++[#Salmon] Nappi: Lähetä valmis siirtolista backendiin
 ++[#LightBlue] Lisätäänkö tuote siirtolistalle
 +++[#LightBlue] Pop-up: Lisätäänkö tuote siirtolistalle
 +++[#LightBlue] Nappi: Lisää tuote siirtolistalle
 +++[#LightBlue] Nappi: Hylkää luettu viivakoodi
 +++[#LightBlue] Lisää tuotteen saldoa siirtolistassa
 +++[#LightBlue] Hylkää luettu viivakoodi
-++[#Fuchsia] Lue viivakoodi
-+++[#Fuchsia] Nappi: Lue viivakoodi
-+++[#Fuchsia] Aktivoi viivakoodinlukija
-+++[#Fuchsia] Lue viivakoodi
+++[#Salmon] Lue viivakoodi
++++[#Salmon] Nappi: Lue viivakoodi
++++[#Salmon] Aktivoi viivakoodinlukija
++++[#Salmon] Lue viivakoodi
 @endmindmap
 ```
 
