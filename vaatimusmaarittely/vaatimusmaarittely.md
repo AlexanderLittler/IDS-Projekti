@@ -36,6 +36,10 @@ Tilauksen seuranta: kerääjä tai kuljetusliike kirjautuu sisään sovellukseen
 | | Syöte: salasana uudelleen |
 | | Nappi: rekisteröidy |
 | | Nappi: kirjaudu sisään |
+| Kirjaudu sisään | Syöte: sähköposti |
+| | Syöte: salasana |
+| | Nappi: kirjaudu sisään |
+| | Nappi: rekisteröidy |
 
 
 ## Backend
