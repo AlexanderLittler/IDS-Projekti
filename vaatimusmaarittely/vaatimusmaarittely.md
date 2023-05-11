@@ -47,10 +47,14 @@ Tilauksen seuranta: kerääjä tai kuljetusliike kirjautuu sisään sovellukseen
 | Suorita keräily | Ominaisuus: Lue viivakoodi |
 | | Tarkista onko tuote siirtolistassa |
 | | Ominaisuus: Kysy:”Lisätäänkö tuote siirtolistalle?” |
-| | Lisää tuotteen saldoa siirtolistassa  |
 | | Pop-up: Ilmoita virheellisestä tuotteesta |
 | | Pop-up: Vahvista kun kaikki tuotteet on keräilty |
 | | Nappi: Lähetä valmis siirtolista backendiin |
+| Lisätäänkö tuote siirtolistalle | Pop-up: Lisätäänkö tuote siirtolistalle |
+| | Nappi: Lisää tuote siirtolistalle |
+| | Nappi: Hylkää luettu viivakoodi |
+| | Lisää tuotteen saldoa siirtolistassa |
+| | Hylkää luettu viivakoodi |
 
 
 ## Backend
