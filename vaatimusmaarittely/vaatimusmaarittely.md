@@ -53,6 +53,10 @@ Tilauksen seuranta: kerääjä tai kuljetusliike kirjautuu sisään sovellukseen
 | Tarkista sisäänkirjautuminen | Ota vastaan sähköposti ja salasana |
 | | Tarkista vastaako salana tietokantaan tallennettua hashia |
 | | Validoi käyttäjän sessio |
+| Lähetä ilmoitus uudesta siirtolistasta kaikkiin keräilypäätteisiin | Ota siirtotiedosto vastaan nettikaupasta |
+| | Lähetä viesti kaikkiin päätteisiin uudesta siirtolistasta |
+| | Vastaanota vahvistus keräilyn aloittamisesta |
+| | Lähetä siirtotiedosto |
 
 
 # Toiminnalliset vaatimukset
