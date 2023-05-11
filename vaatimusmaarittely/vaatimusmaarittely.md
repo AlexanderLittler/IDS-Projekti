@@ -25,7 +25,9 @@ Tilauksen kuittaaminen: kuljetusliike kirjautuu sisään sovellukseen, valitsee 
 Tilauksen seuranta: kerääjä tai kuljetusliike kirjautuu sisään sovellukseen, etsii tilauksen ja tarkistaa sen tilan.
 
 # Palvelun ominaisuudet ja toiminnot
+
 ## Frontend
+
 | Ominaisuus | Ominaisuuteen liittyvät toiminnot |
 | :-: | :-: |
 | Luo uusi käyttäjä | Syöte: käyttäjän nimi |
@@ -37,6 +39,13 @@ Tilauksen seuranta: kerääjä tai kuljetusliike kirjautuu sisään sovellukseen
 
 
 ## Backend
+
+| Ominaisuus | Ominaisuuteen liittyvät toiminnot |
+| :-: | :-: |
+| Luo uusi käyttäjä | Ota vastaan käyttäjän nimi, sähköposti ja salasana |
+| | Tarkista että sähköposti on uniikki |
+| | Tee salasanasta hash |
+| | Tallenna tietokantaan uusi käyttäjä |
 
 # Toiminnalliset vaatimukset
 
