@@ -88,15 +88,16 @@ Käyttäjänä haluan voida kuitata tilauksen kuljetusliikkeelle
 
 ## Palvelun ominaisuudet ja toiminnot:
 
-Asiakkaat voivat luoda tilauksia mobiilisovelluksessa.
-Tilauksen tekemisen yhteydessä asiakkaat voivat valita haluamansa tuotteet, niiden määrän ja toimitusajan.
-Tilauksen luomisen jälkeen asiakas saa vahvistusviestin onnistuneesta tilauksesta.
-Sovelluksessa oleva varastonhallintajärjestelmä pitää kirjaa tuotteiden saatavuudesta ja varastotilanteesta.
-Tilausten kerääminen varastolta sovelluksen avulla.
-Kerätyt tilaukset merkitään valmiiksi noudettaviksi.
-Valmiit tilaukset merkitään noudetuiksi kuljetusliikkeelle.
-Mahdollisuus skannata viivakoodeja tilauksen yksilöimiseksi.
-Varastonhallintajärjestelmä luo automaattisesti uuden tilauksen puuttuvista tuotteista.
+| Ominaisuus | Ominaisuuteen liittyvät toiminnot |
+| :-: | :-: |
+| Luo uusi käyttäjä | Syöte: käyttäjän nimi |
+| | Syöte: sähköposti
+| | Syöte: salasana |
+| | Syöte: salasana uudelleen |
+| | Nappi: rekisteröidy |
+| | Nappi: kirjaudu sisään |
+
+
 
 ## Toiminnalliset vaatimukset
 
