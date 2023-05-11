@@ -40,7 +40,10 @@ Tilauksen seuranta: kerääjä tai kuljetusliike kirjautuu sisään sovellukseen
 | | Syöte: salasana |
 | | Nappi: kirjaudu sisään |
 | | Nappi: rekisteröidy |
-
+| Vastaanota ja kuittaa siirtolista | Ilmoitus: Vastaanota ilmoitus uudesta siirtolistasta |
+| | Nappi: Kuittaa kyseinen siirtolista tälle päätteelle |
+| | Vastaanota siirtolista |
+| | Lista: Listaa kerättävät tuotteet |
 
 ## Backend
 
