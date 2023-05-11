@@ -50,6 +50,10 @@ Tilauksen seuranta: kerääjä tai kuljetusliike kirjautuu sisään sovellukseen
 | | Tarkista että sähköposti on uniikki |
 | | Tee salasanasta hash |
 | | Tallenna tietokantaan uusi käyttäjä |
+| Tarkista sisäänkirjautuminen | Ota vastaan sähköposti ja salasana |
+| | Tarkista vastaako salana tietokantaan tallennettua hashia |
+| | Validoi käyttäjän sessio |
+
 
 # Toiminnalliset vaatimukset
 
