@@ -122,7 +122,7 @@ Tilauksen seuranta: kerääjä tai kuljetusliike kirjautuu sisään sovellukseen
 | | Poimi asiakkaan sähköpostiosoite siirtolistasta |
 | | Poimi tilauksen sisältö siirtolistasta |
 | | Luo sähköpostiviesti valmiilla pohjalla |
-| | Lähteä sähköposti asiakkaalle |
+| | Lähetä sähköposti asiakkaalle |
 | Lähetä rahtitilaus rahtiyhtiön API:iin | Ota siirtolista vastaan frontendistä |
 | | Poimi asiakkaan yhteystiedot siirtolistasta |
 | | Ominaisuus: Laske tilauksen paino ja tilavuus |
@@ -135,12 +135,62 @@ Tilauksen seuranta: kerääjä tai kuljetusliike kirjautuu sisään sovellukseen
 | | Poimi rahtikirjan numero ja siihen liittyvä siirtolistan numero |
 | | Poimi asiakkaan sähköpostiosoite siirtolistasta |
 | | Luo sähköpostiviesti valmiilla pohjalla |
-| | Lähteä sähköposti asiakkaalle |
+| | Lähetä sähköposti asiakkaalle |
 | Laske tilauksen paino ja tilavuus | Hae tuotekuvauksesta paino |
 | | Hae tuotekuvauksesta tilavuus |
 | | Laske kpl * paino ja kpl* tilavuus |
 | | Lisää tilauksen paino ja tilavuus siirtolistaan |
+<br>
 
+### Frontend MindMap muodossa
+
+
+```plantuml
+@startmindmap
++[#Bisque] BACKEND
+++[#LightBlue] Luo uusi käyttäjä
++++[#LightBlue] Ota vastaan käyttäjän nimi, sähköposti ja salasana
++++[#LightBlue] Tarkista että sähköposti on uniikki
++++[#LightBlue] Tee salasanasta hash
++++[#LightBlue] Tallenna tietokantaan uusi käyttäjä
+++[#Salmon] Tarkista sisäänkirjautuminen
++++[#Salmon] Ota vastaan sähköposti ja salasana
++++[#Salmon] Tarkista vastaako salana tietokantaan tallennettua hashia
++++[#Salmon] Validoi käyttäjän sessio
+++[#LightBlue] Lähetä ilmoitus uudesta siirtolistasta kaikkiin keräilypäätteisiin
++++[#LightBlue] Ota siirtotiedosto vastaan nettikaupasta
++++[#LightBlue] Lähetä viesti kaikkiin päätteisiin uudesta siirtolistasta
++++[#LightBlue] Vastaanota vahvistus keräilyn aloittamisesta
++++[#LightBlue] Lähetä siirtotiedosto
+++[#Salmon] Lähetä viesti asiakkaalle keräilyn aloittamisesta
++++[#Salmon] Vastaanota kuittaus keräilyn aloittamisesta
++++[#Salmon] Poimi tilausnumero siirtolistasta
++++[#Salmon] Poimi asiakkaan sähköpostiosoite siirtolistasta
++++[#Salmon] Poimi tilauksen sisältö siirtolistasta
++++[#Salmon] Luo sähköpostiviesti valmiilla pohjalla
++++[#Salmon] Lähetä sähköposti asiakkaalle
+++[#LightBlue] Lähetä rahtitilaus rahtiyhtiön API:iin
++++[#LightBlue] Ota siirtolista vastaan frontendistä
++++[#LightBlue] Poimi asiakkaan yhteystiedot siirtolistasta
++++[#LightBlue] Ominaisuus: Laske tilauksen paino ja tilavuus
++++[#LightBlue] Poimi tilauksen paino ja tilavuus siirtolistasta
++++[#LightBlue] Luo rahtitilaus
++++[#LightBlue] Lähetä rahtitilaus rahtiyhtiön API:iin
++++[#LightBlue] Vastaanota rahtikirjan numero
++++[#LightBlue] Linkitä rahtikirjan numero ja siirtolista toisiinsa
+++[#Salmon] Lähetä viesti asiakkaalle rahtitilauksesta
++++[#Salmon] Vastaanota rahtiyhtiön vahvistus rahtitilauksesta
++++[#Salmon] Poimi rahtikirjan numero ja siihen liittyvä siirtolistan numero
++++[#Salmon] Poimi asiakkaan sähköpostiosoite siirtolistasta
++++[#Salmon] Luo sähköpostiviesti valmiilla pohjalla
++++[#Salmon] Lähetä sähköposti asiakkaalle
+++[#LightBlue] Laske tilauksen paino ja tilavuus
++++[#LightBlue] Hae tuotekuvauksesta paino
++++[#LightBlue] Hae tuotekuvauksesta tilavuus
++++[#LightBlue] Laske kpl * paino ja kpl* tilavuus
++++[#LightBlue] Lisää tilauksen paino ja tilavuus siirtolistaan
+@endmindmap
+```
 
 # Toiminnalliset vaatimukset
 
