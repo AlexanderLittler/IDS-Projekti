@@ -78,6 +78,12 @@ Tilauksen seuranta: kerääjä tai kuljetusliike kirjautuu sisään sovellukseen
 | | Poimi asiakkaan yhteystiedot siirtolistasta |
 | | Ominaisuus: Laske tilauksen paino ja tilavuus |
 | | Ominaisuus: Lähetä tilauksen paino ja tilavuus sekä asiakkaan yhteystiedot rahtiyhtiön API:iin |
+| Lähetä asiakkaalle viesti rahtitilauksesta | Vastaanota rahtiyhtiön vahvistus rahtitilauksesta |
+| | Poimi rahtikirjan numero ja siihen liittyvä siirtolistan numero |
+| | Poimi asiakkaan sähköpostiosoite siirtolistasta |
+| | Luo sähköpostiviesti valmiilla pohjalla |
+| | Lähteä sähköposti asiakkaalle |
+
 
 # Toiminnalliset vaatimukset
 
