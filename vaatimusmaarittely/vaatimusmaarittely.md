@@ -4,11 +4,11 @@
 
 Tämä vaatimusmäärittely kuvailee mobiilisovelluksen ominaisuuksia ja toimintoja, joka auttaa keräämään tilauksia ja hallinnoimaan keräilyn prosessia. Sovelluksen tarkoituksena on helpottaa tilausten keräilyprosessia, vähentää virheitä ja parantaa tehokkuutta.
 
-## Kohderyhmä
+# Kohderyhmä
 
 Sovellus on tarkoitettu käytettäväksi logistiikka-alan ammattilaisille ja henkilöille, jotka ovat vastuussa tilausten keräämisestä ja hallinnasta. / Sovelluksen kohderyhmä on varastonhoitohenkilökunta ja logistiikkatyöntekijät. He käyttävät sovellusta päivittäisessä työssään keräillessään tuotteita ja varmistaessaan niiden oikean toimituksen asiakkaille.
 
-## Sidosryhmäkartta
+# Sidosryhmäkartta
 
 Sovellus liittyy kiinteästi varastonhallintaan ja logistiikkaan, joten sen sidosryhmäkartoissa ovat varastonhoitohenkilökunta, logistiikka- ja kuljetusyritykset sekä asiakkaat. / 
 Asiakkaat: tilaavat tuotteita verkkokaupasta
@@ -16,7 +16,7 @@ Kerääjät: vastuussa tilausten keräämisestä
 Kuljetusliikkeet: noutavat ja toimittavat tilaukset
 Sovelluskehittäjät: vastuussa sovelluksen kehittämisestä ja ylläpidosta
 
-## Palveluun liittyvät asiakaspolut
+# Palveluun liittyvät asiakaspolut
 
 Sovelluksen käyttäjät aloittavat sovelluksen kirjautumalla sisään ja siirtymällä sen etusivulle. Siellä he voivat aloittaa uuden keräilytoimeksiannon, joka luo uuden keräilytehtävän. He voivat skannata tuotteen viivakoodin, tarkistaa sen tiedot ja merkitä sen kerätyksi.
 
@@ -24,8 +24,8 @@ Tilauksen kerääminen: kerääjä kirjautuu sisään sovellukseen, valitsee til
 Tilauksen kuittaaminen: kuljetusliike kirjautuu sisään sovellukseen, valitsee tilauksen, kirjaa tilauksen vastaanotetuksi ja tallentaa kuljetuksen tiedot.
 Tilauksen seuranta: kerääjä tai kuljetusliike kirjautuu sisään sovellukseen, etsii tilauksen ja tarkistaa sen tilan.
 
-## Palvelun ominaisuudet ja toiminnot
-
+# Palvelun ominaisuudet ja toiminnot
+## Frontend
 | Ominaisuus | Ominaisuuteen liittyvät toiminnot |
 | :-: | :-: |
 | Luo uusi käyttäjä | Syöte: käyttäjän nimi |
@@ -35,7 +35,10 @@ Tilauksen seuranta: kerääjä tai kuljetusliike kirjautuu sisään sovellukseen
 | | Nappi: rekisteröidy |
 | | Nappi: kirjaudu sisään |
 
-## Toiminnalliset vaatimukset
+
+## Backend
+
+# Toiminnalliset vaatimukset
 
 Sovelluksen tulee toimia sujuvasti ja virheettömästi
 Sovelluksen tulee olla yhteensopiva eri mobiilialustojen kanssa
@@ -63,7 +66,7 @@ Ostosten tallentaminen: Käyttäjä voi tallentaa suosikkituotteitaan sovellukse
 
 Asiakaspalvelun yhteydenotto: Käyttäjä voi ottaa yhteyttä asiakaspalveluun chatin tai sähköpostin välityksellä.
 
-## Käyttöliittymänäkymä
+# Käyttöliittymänäkymä
 
 Kirjautumisnäkymä
 Etusivu
@@ -85,7 +88,7 @@ Asiakaspalvelun chat-näkymä: Käyttäjä voi lähettää viestejä asiakaspalv
 
 Asiakaspalvelun sähköpostilomake: Käyttäjä voi täyttää lomakkeen ja lähettää viestin asiakaspalveluun.
 
-## Ketterän kehittämisen käyttötarinat
+# Ketterän kehittämisen käyttötarinat
 
 Käyttäjänä haluan voida kirjautua sovellukseen, jotta voin aloittaa keräilyn.
 Käyttäjänä haluan voida luoda uuden keräilytehtävän, jotta voin aloittaa keräilyn.
@@ -117,7 +120,7 @@ Kehitystiimi seuraa jatkuvasti sovelluksen käyttöä ja kerää palautetta käy
 
 Palautteen perusteella sovellusta kehitetään edelleen ja pyritään parantamaan sen toimivuutta ja käyttökokemusta.
 
-## Palveluun liittyvät tekniset vaatimukset:
+# Palveluun liittyvät tekniset vaatimukset:
 
 Käyttöjärjestelmätuki: Android-käyttöjärjestelmäversiot 5.0 ja uudemmat.
 
