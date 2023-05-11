@@ -59,6 +59,45 @@ Tilauksen seuranta: kerääjä tai kuljetusliike kirjautuu sisään sovellukseen
 | | Aktivoi viivakoodinlukija |
 | | Lue viivakoodi |
 
+```plantuml
+@startmindmap
++[#Bisque] FRONTEND
+++[#LightBlue] Luo uusi käyttäjä
++++[#LightBlue] Syöte: käyttäjän nimi
++++[#LightBlue] Syöte: sähköposti
++++[#LightBlue] Syöte: salasana
++++[#LightBlue] Syöte: salasana uudelleen
++++[#LightBlue] Nappi: rekisteröidy
++++[#LightBlue] Nappi: kirjaudu sisään
+++[#Fuchsia] Kirjaudu sisään
++++[#Fuchsia] Syöte: sähköposti
++++[#Fuchsia] Syöte: salasana
++++[#Fuchsia] Nappi: kirjaudu sisään
++++[#Fuchsia] Nappi: rekisteröidy
+++[#LightBlue] Vastaanota ja kuittaa siirtolista
++++[#LightBlue] Ilmoitus: Vastaanota ilmoitus uudesta siirtolistasta
++++[#LightBlue] Nappi: Kuittaa kyseinen siirtolista tälle päätteelle
++++[#LightBlue] Vastaanota siirtolista
++++[#LightBlue] Lista: Listaa kerättävät tuotteet
+++[#Fuchsia] Suorita keräily
++++[#Fuchsia] Ominaisuus: Lue viivakoodi
++++[#Fuchsia] Tarkista onko tuote siirtolistassa
++++[#Fuchsia] Ominaisuus: Lisätäänkö tuote siirtolistalle
++++[#Fuchsia] Pop-up: Ilmoita virheellisestä tuotteesta
++++[#Fuchsia] Pop-up: Vahvista kun kaikki tuotteet on keräilty
++++[#Fuchsia] Nappi: Lähetä valmis siirtolista backendiin
+++[#LightBlue] Lisätäänkö tuote siirtolistalle
++++[#LightBlue] Pop-up: Lisätäänkö tuote siirtolistalle
++++[#LightBlue] Nappi: Lisää tuote siirtolistalle
++++[#LightBlue] Nappi: Hylkää luettu viivakoodi
++++[#LightBlue] Lisää tuotteen saldoa siirtolistassa
++++[#LightBlue] Hylkää luettu viivakoodi
+++[#Fuchsia] Lue viivakoodi
++++[#Fuchsia] Nappi: Lue viivakoodi
++++[#Fuchsia] Aktivoi viivakoodinlukija
++++[#Fuchsia] Lue viivakoodi
+@endmindmap
+```
 
 ## Backend
 
