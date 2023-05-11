@@ -58,6 +58,9 @@ Tilauksen seuranta: kerääjä tai kuljetusliike kirjautuu sisään sovellukseen
 | Lue viivakoodi | Nappi: Lue viivakoodi |
 | | Aktivoi viivakoodinlukija |
 | | Lue viivakoodi |
+<br>
+
+### Frontend MindMap muodossa
 
 ```plantuml
 @startmindmap
