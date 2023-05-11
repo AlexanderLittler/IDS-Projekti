@@ -60,7 +60,12 @@ Tilauksen seuranta: kerääjä tai kuljetusliike kirjautuu sisään sovellukseen
 | | Lähetä viesti kaikkiin päätteisiin uudesta siirtolistasta |
 | | Vastaanota vahvistus keräilyn aloittamisesta |
 | | Lähetä siirtotiedosto |
-
+| Lähetä viesti asiakkaalle keräilyn aloittamisesta | Vastaanota kuittaus keräilyn aloittamisesta |
+| | Poimi tilausnumero siirtolistasta |
+| | Poimi asiakkaan sähköpostiosoite siirtolistasta |
+| | Poimi tilauksen sisältö siirtolistasta |
+| | Luo sähköpostiviesti valmiilla pohjalla |
+| | Lähteä sähköposti asiakkaalle |
 
 # Toiminnalliset vaatimukset
 
