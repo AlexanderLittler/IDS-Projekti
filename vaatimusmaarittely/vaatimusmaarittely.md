@@ -90,6 +90,9 @@ Tilauksen seuranta: kerääjä tai kuljetusliike kirjautuu sisään sovellukseen
 | | Poimi asiakkaan sähköpostiosoite siirtolistasta |
 | | Luo sähköpostiviesti valmiilla pohjalla |
 | | Lähteä sähköposti asiakkaalle |
+| Laske tilauksen paino ja tilavuus | Hae tuotekuvauksesta paino |
+| | Hae tuotekuvauksesta tilavuus |
+| | Laske kpl * paino ja kpl* tilavuus |
 
 
 # Toiminnalliset vaatimukset
