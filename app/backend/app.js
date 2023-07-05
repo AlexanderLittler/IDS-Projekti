@@ -5,7 +5,7 @@ const { XMLParser, XMLBuilder } = require('fast-xml-parser');
 const parser = new XMLParser
 // Read files
 const { readFileSync } = require('fs')
-const morgan = require('morgan')
+
 
 // orders from a JSON-file
 //const { orders } = require('./data/orders')

@@ -5,7 +5,7 @@ import { Text, View } from 'react-native';
 const Login = ()  => {
   return (
     <View style={Styles.container}>
-      <Text>Hello World! :)</Text>
+      <Text>Terve Bea!</Text>
     </View>
   );
 };
