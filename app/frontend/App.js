@@ -1,8 +1,9 @@
 import React from 'react';
-import Login from './components/login';
+import Create from './components/create';
+
 
 export default function App() {
   return (
-    <Login/ >
+    <Create/ >
   );
 };
