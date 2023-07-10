@@ -5,7 +5,7 @@ import { Text, View } from 'react-native';
 const Create = ()  => {
   return (
     <View style={Styles.container}>
-      <Text>Moi Moi</Text>
+      <Text>Lorem Ipsum!</Text>
     </View>
   );
 };

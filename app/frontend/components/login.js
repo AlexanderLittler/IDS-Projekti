@@ -1,6 +1,5 @@
 import React from 'react';
 import Styles from './styles';
-import Create from './create';
 import { Text, View } from 'react-native';
 
 const Login = ()  => {
