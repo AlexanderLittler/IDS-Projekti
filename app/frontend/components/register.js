@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, TextInput, Button, TouchableOpacity, Text } from 'react-native';
 import styles from './styles';
-import { AntDesign } from '@expo/vector-icons';
+//import { AntDesign } from '@expo/vector-icons';
 
 const Register = () => {
   const [nimi, setNimi] = useState('');

@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 5,
+    paddingTop: 30,
   },
   header: {
     flexDirection: 'row',
@@ -35,6 +36,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#02718D',
     width: '100%',
     height: 74,
+    position: 'absolute', // Lisää position-ominaisuus
+    top: 90, // Siirtää headerin ylös
   },
   backButton: {
     marginRight: 10,
@@ -48,6 +51,7 @@ const styles = StyleSheet.create({
     width: 292,
     height: 52,
     borderColor: '#ccc',
+    backgroundColor: 'white',
     borderWidth: 1,
     borderRadius: 5,
     paddingHorizontal: 10,
