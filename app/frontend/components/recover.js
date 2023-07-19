@@ -38,7 +38,7 @@ const Register = () => {
       />
 
       <Button
-        title="Tallenna"
+        title="Lähetä"
         onPress={handleRegister}
         color="#02718D"
       />

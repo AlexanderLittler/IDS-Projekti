@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, TextInput, Button, TouchableOpacity, Text } from 'react-native';
 import styles from './styles';
-//import { AntDesign } from '@expo/vector-icons';
+import { AntDesign } from '@expo/vector-icons';
 
 const Register = () => {
   const [nimi, setNimi] = useState('');
@@ -17,11 +17,11 @@ const Register = () => {
       salasana2: salasana2,
     };
 
-    console.log(user); // Tässä vaiheessa voit lähettää käyttäjätiedot palvelimelle tai suorittaa muut tarvittavat toiminnot.
+    console.log(user); 
   };
 
   const handleBackButton = () => {
-    // Lisää tässä tarvittavat toiminnot takaisinpaluunapin painallukselle
+    
   };
 
   return (
