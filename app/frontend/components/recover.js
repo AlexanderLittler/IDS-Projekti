@@ -5,7 +5,7 @@ import { AntDesign } from '@expo/vector-icons';
 
 const Register = () => {
   const [email, setEmail] = useState('');
-  const [salasana, setSalasana] = useState('');
+  //const [salasana, setSalasana] = useState('');
 
   const handleRegister = () => {
     const user = {
