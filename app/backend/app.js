@@ -8,6 +8,7 @@ const xmlparserOptions = {
   explicitArray: false  
 }
 const app = express()
+const users = require('./routes/users')
 const orders = require('./routes/orders')
 const PORT = process.env.PORT
 const mongoDB = process.env.MONGO_URI
@@ -26,6 +27,7 @@ app.use(xmlparser(xmlparserOptions))
 // Logger middleware
 app.use(morgan('combined'))
 
+app.use('/', users)
 app.use('/api', orders)
 
 app.use(notFound)
