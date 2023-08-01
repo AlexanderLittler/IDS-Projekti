@@ -1,5 +1,6 @@
 const APIError = require('../errors/apierror')
 const BadRequest = require('../errors/badRequest')
+const NotFound = require('../errors/notFound')
 const { StatusCodes } = require('http-status-codes')
 
 const errorHandler = (err, _req, res, _next) => {
@@ -22,6 +23,10 @@ const errorHandler = (err, _req, res, _next) => {
   }
   // Check if error is from BadRequest class
   if (err instanceof BadRequest) {
+    return res.status(err.statusCode).json({ message: err.message})
+  }
+  // Check if error is from NotFound class
+  if (err instanceof NotFound) {
     return res.status(err.statusCode).json({ message: err.message})
   }
   // If error is not handled by earlier if statements => 500
