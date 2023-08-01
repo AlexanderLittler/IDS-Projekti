@@ -1,5 +1,6 @@
 const APIError = require('../errors/apierror')
 const BadRequest = require('../errors/badRequest')
+const NotFound = require('../errors/notFound')
 const { StatusCodes } = require('http-status-codes')
 const User = require('../models/User')
 const bcrypt = require('bcryptjs')
@@ -52,8 +53,13 @@ const createUser = async (req, res) => {
   }
 }
 
-const getSingleUser = () => {
-
+const getSingleUser = async (req, res) => {
+  const { id } = req.params
+  const user = await User.findById(id)
+  if (!user) {
+    throw new NotFound(`No user found with id ${id}`)
+  }
+  res.status(StatusCodes.OK).json({user})
 }
 
 const getUsers = async (req, res) => {
