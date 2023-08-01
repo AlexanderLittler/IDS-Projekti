@@ -1,5 +1,4 @@
 const Order = require('../models/Order')
-const Order2 = require('../models/Order2')
 const APIError = require('../errors/apierror')
 const { StatusCodes } = require('http-status-codes')
 const sendEmail = require('../middleware/sendEmail')
