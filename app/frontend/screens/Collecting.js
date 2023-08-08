@@ -17,7 +17,7 @@ export default function Collecting({ route, navigation }) {
   
   // get IPv4 for your Windows machine:
   //      - start terminal and type 'ipconfig'  
-  const computerIPv4 = '192.168.100.105'
+  const computerIPv4 = '192.168.97.125'
   
   // fetch data asynchronously from backend
   const getItems = async () => {
