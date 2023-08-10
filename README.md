@@ -8,10 +8,4 @@ Projekti on tehty Jyväskylän ammattikorkeakoulun järjestämässä Ohjelmistoa
 
 Tiimissä jäseninä olivat Alexander Littler, Pirjo Mure, Lassi Iiskola ja Beatrice Raitio.
 
-## Esittelyvideo
 
-Alla on video, jossa esitellään valmiit toiminnallisuudet projektin valmistumishetkellä 04.08.2023.
-
-Video on tulossa 09.08.2023 mennessä.
-
-![Esittelyvideo](./esittely_video.mp4)
