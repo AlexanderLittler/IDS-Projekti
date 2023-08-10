@@ -14,8 +14,4 @@ Alla on video, jossa esitellään valmiit toiminnallisuudet projektin valmistumi
 
 Video on tulossa 09.08.2023 mennessä.
 
-![Esittelyvideo](./media/esittely.mp4)
-
-
-
-  
+![Esittelyvideo]()
